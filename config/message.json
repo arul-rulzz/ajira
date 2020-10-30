@@ -1,0 +1,22 @@
+{
+    "en-IN": {
+        "msg.device.add.success": "Successfully added %s",
+        "msg.device.connection.success": "Successfully connected",
+        "msg.strength.update.success": "Successfully defined strength",
+        "msg.routes": "Route is %s",
+        "error.invalid.message": "Invalid Command.",
+        "error.invalid.command.syntax": "Invalid command syntax",
+        "error.invalid.request": "Invalid Request",
+        "error.invalid.request.body": "Invalid Request body",
+        "error.not.valid.device.type": "type '%s' is not supported",
+        "error.not.valid.node": "not a valid node",
+        "error.device.already.exist": "Device '%s' already exists",
+        "error.value.must.integer": "value should be an integer",
+        "error.device.not.found": "Device Not Found",
+        "error.device.connection.itself": "Cannot connect device to itself",
+        "error.device.connected.already": "Devices are already connected",
+        "error.node.not.found": "Node %s not found",
+        "error.route.not.found": "Route not found",
+        "error.route.cannot.calculate.router": "Route cannot be calculated with repeater"
+    }
+}

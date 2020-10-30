@@ -1,0 +1,31 @@
+version: "3.4"
+services:
+  ajiiranetservice:
+    build:
+      context: ../../ajiiranetservice
+      dockerfile: ./docker/Dockerfile
+      args:
+        buildno: 1
+    image: ajiiranetservice:alpine1.0
+    env_file:
+     - ../env/ajira.env
+    hostname: ajiiranetservice
+    container_name: ajiiranetservice
+    restart: always
+    ports:
+      - 8080:8080/tcp
+    networks:
+      internal:
+        aliases:
+          - ajiiranetservice
+      default:
+        aliases:
+          - ajiiranetservice
+
+networks:
+  default:
+    external:
+       name: ajira_default
+  internal:
+    external:
+      name: ajira_internal

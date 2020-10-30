@@ -1,0 +1,69 @@
+{
+    "connectedDevices": {
+        "A1": {
+            "name": "A1",
+            "type": "COMPUTER",
+            "strength": {
+                "value": 2
+            }
+        },
+        "A2": {
+            "name": "A2",
+            "type": "COMPUTER",
+            "strength": {
+                "value": 5
+            }
+        },
+        "A3": {
+            "name": "A3",
+            "type": "COMPUTER",
+            "strength": {
+                "value": 5
+            }
+        },
+        "A4": {
+            "name": "A4",
+            "type": "COMPUTER",
+            "strength": {
+                "value": 5
+            }
+        },
+        "A5": {
+            "name": "A5",
+            "type": "COMPUTER",
+            "strength": {
+                "value": 5
+            }
+        },
+        "A6": {
+            "name": "A6",
+            "type": "COMPUTER",
+            "strength": {
+                "value": 5
+            }
+        },
+        "R1": {
+            "name": "R1",
+            "type": "REPEATER",
+            "strength": {
+                "value": 5
+            }
+        }
+    },
+    "connections": {
+        "A1": [
+            "A2",
+            "A3"
+        ],
+        "A5": [
+            "A4"
+        ],
+        "R1": [
+            "A2",
+            "A5"
+        ],
+        "A2": [
+            "A4"
+        ]
+    }
+}
